@@ -1,0 +1,44 @@
+let str1 = "mr";
+let str2 = "legend";
+// console.log(str1+str2);
+
+//convirson
+
+// console.log(2 + 2);
+// console.log("2" + 1);
+// console.log(1+"3");
+// console.log("3" + "3");
+// console.log(1 + 2 + "3");
+// console.log( + true);
+
+let gameCounter = 100;
+gameCounter++ ;
+// console.log(gameCounter);
+
+//data type conversion and  opreation
+
+let score = null;
+
+// console.log(typeof(score));
+let valueNumber = Number(score);
+// console.log(valueNumber);
+// console.log(typeof(valueNumber));
+
+//"33" => 33
+// "33abc" => NaN
+// true => 1 ; false => 0
+
+let isLoggedIn = 1;
+
+let booleanIsLLogedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLLogedIn);
+
+//1 => true ; 0 => false 
+//" " => false
+//"hitesh" => true
+
+let numbervalue = 33;
+
+let strnum = String(numbervalue);
+console.log(typeof strnum);
+console.log(strnum);
